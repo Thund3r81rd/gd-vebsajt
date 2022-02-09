@@ -1383,9 +1383,10 @@ margin-top: 0.5px;
 }
 
 .probootstrap-counter-wrap {
-  float: left;
-  width: 100%;
-  margin-bottom: 30px;
+  float: center;
+  width: %;
+  margin-bottom: 70px;
+
 }
 
 .probootstrap-counter-wrap .probootstrap-icon,
@@ -1395,26 +1396,28 @@ margin-top: 0.5px;
 }
 
 .probootstrap-counter-wrap .probootstrap-icon {
-  width: 60px;
+  width:60px;
 }
 
 .probootstrap-counter-wrap .probootstrap-icon i {
-  font-size: 40px;
+  font-size: 60px;  
   color: #ff9933;
 }
 
 .probootstrap-counter-wrap .probootstrap-text .probootstrap-counter {
   display: block;
-  font-size: 40px;
+  font-size: 60px;
   color: #000000;
-  margin-bottom: 10px;
+  margin-bottom:20px;
   font-family: "Open Sans", Arial, sans-serif;
 }
 
 .probootstrap-counter-wrap .probootstrap-text .probootstrap-counter-label {
   display: block;
   color: #b3b2b2;
-  line-height: 20px;
+  line-height: 40px;
+  margin-left: 20px;
+  margin-bottom: 40px;
 }
 
 .probootstrap-overlap {
