@@ -1011,15 +1011,18 @@ margin-top: 0.5px;
 }
 
 .probootstrap-section.probootstrap-bg {
+  border-radius: 40px;
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center center;
+  background: rgba(255, 255, 255, 1.0);
 }
 
 .probootstrap-section.probootstrap-bg:before {
   position: absolute;
   content: "";
-  background: rgba(0, 0, 0, 0.4);
+  background: rgba(255, 255, 255, 0);
+
   top: 0;
   left: 0;
   right: 0;
@@ -1448,6 +1451,7 @@ margin-top: 0.5px;
 }
 
 .probootstrap-flex-block .probootstrap-text {
+  border-radius:25px;
   width: 30%;
   margin-right: 20px;
   background: #ffffff;
@@ -1553,7 +1557,9 @@ margin-top: 0.5px;
 
 .nav-tabs.probootstrap-tabs > li > a, .nav-pills.probootstrap-tabs > li > a {
   border-radius: 0px;
-  padding: 20px 30px;
+  border-top-left-radius: 15px;
+   border-top-right-radius:15px;
+  padding: 20px 60px;
   background: #b3b3b3;
   color: #ffffff;
   font-size: 16px;
@@ -1623,6 +1629,7 @@ margin-top: 0.5px;
 }
 
 .probootstrap-featured-news-box .probootstrap-text {
+  border-radius: 25px;
   position: relative;
   z-index: 2;
   background: #ffffff;
@@ -3172,4 +3179,5 @@ font-size: 20px;
 align-content: center;
 }
 
-
+.continer_pocentna{
+ }
