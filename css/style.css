@@ -124,10 +124,10 @@ a:hover, a:focus, a:active {
 
 @media screen and (max-width: 1200px) {
   .probootstrap-page-wrapper {
-    max-width: 960px;
+    max-width: 1200px;
   }
   .probootstrap-page-wrapper .container {
-    max-width: 900px;
+    max-width: 1200px;
   }
 }
 
@@ -234,13 +234,14 @@ margin-top: 2px;
 }
 
 .probootstrap-navbar {
+
   border:none;
   -webkit-box-shadow: none;
     background-color:#ff9933;
     color:#ff9933;
   box-shadow: none;
   border-radius: 0px;
-  margin-bottom: 0px;
+  margin-bottom: 0pxpx;
   background: #b3b3b3;
   -webkit-transition: .3s all;
   transition: .3s all;
@@ -933,7 +934,7 @@ margin-top: 0.5px;
 }
 
 .btn.btn-primary {
-  border: 1px solid #ff9933;
+  border: 15px solid #ff9933;
   background: #ff9933;
   color: #ffffff;
 }
@@ -989,6 +990,8 @@ margin-top: 0.5px;
 }
 /*  Tuka e colorot !!!!!!!! */
 .probootstrap-section.probootstrap-section-colored {
+  border-bottom-left-radius: 40px;
+  border-bottom-right-radius: 40px;
   background: #ff9933;
 }
 
@@ -1011,7 +1014,7 @@ margin-top: 0.5px;
 }
 
 .probootstrap-section.probootstrap-bg {
-  border-radius: 40px;
+  border-radius: 0px;
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center center;
@@ -1419,8 +1422,9 @@ margin-top: 0.5px;
   display: block;
   color: #b3b2b2;
   line-height: 40px;
-  margin-left: 20px;
-  margin-bottom: 40px;
+  margin-left: 0px;
+  margin-bottom:50 px;
+  margin-top: 0px;
 }
 
 .probootstrap-overlap {
@@ -1451,7 +1455,7 @@ margin-top: 0.5px;
 }
 
 .probootstrap-flex-block .probootstrap-text {
-  border-radius:25px;
+  border-radius:15px;
   width: 30%;
   margin-right: 20px;
   background: #ffffff;
@@ -1559,7 +1563,7 @@ margin-top: 0.5px;
   border-radius: 0px;
   border-top-left-radius: 15px;
    border-top-right-radius:15px;
-  padding: 20px 60px;
+  padding: 20px 20px;
   background: #b3b3b3;
   color: #ffffff;
   font-size: 16px;
@@ -1629,7 +1633,7 @@ margin-top: 0.5px;
 }
 
 .probootstrap-featured-news-box .probootstrap-text {
-  border-radius: 25px;
+  border-radius: 15px;
   position: relative;
   z-index: 2;
   background: #ffffff;
@@ -3161,15 +3165,16 @@ margin-top: 0.5px;
 }
 .GD
 {
-	font-size: 20px;
-    margin-left: 75px;
+	font-size: 22px;
+    margin-left: 65px;
     margin-top:23px;
     position: absolute;
      font-family: sans-serif;
     color: #ff9933;
     font-weight: bolder;
-    -webkit-text-stroke-width: 1px;
-    -webkit-text-stroke-color: #808080;
+    -webkit-text-stroke-width: 0.2px;
+    -webkit-text-stroke-color: white;
+
 
 }
 .All_three_sliders
@@ -3178,6 +3183,6 @@ margin-top: 0.5px;
 font-size: 20px;
 align-content: center;
 }
+.btn-video{
 
-.continer_pocentna{
- }
+}
