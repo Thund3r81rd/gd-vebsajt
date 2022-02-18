@@ -12,8 +12,8 @@ html {
 }
 
 body {
-  background: #666666;
-  color: #666666;
+  background: #f0ecec;
+  color: #000000;
     border: 2px;
   line-height: 28px;
   font-size: 15px;
@@ -21,7 +21,8 @@ body {
 }
 
 h1, h2, h3, h4, h5, h6 {
-  color: #181920;
+  color: black;
+
   line-height: 1.5;
   font-family: "Raleway", Arial, sans-serif;
   font-weight: 300;
@@ -242,7 +243,7 @@ margin-top: 2px;
   box-shadow: none;
   border-radius: 0px;
   margin-bottom: 0pxpx;
-  background: #b3b3b3;
+  background: #FFFFFF;
   -webkit-transition: .3s all;
   transition: .3s all;
 }
@@ -990,8 +991,8 @@ margin-top: 0.5px;
 }
 /*  Tuka e colorot !!!!!!!! */
 .probootstrap-section.probootstrap-section-colored {
-  border-bottom-left-radius: 40px;
-  border-bottom-right-radius: 40px;
+  border-bottom-left-radius: 0px;
+  border-bottom-right-radius: 0px;
   background: #ff9933;
 }
 
@@ -1134,7 +1135,7 @@ margin-top: 0.5px;
 .probootstrap-footer {
   padding: 7em 0;
   padding-bottom: 0;
-  background: #b3b3b3;
+  background: #ff9933;
   color: rgba(255, 255, 255, 0.9);
 }
 
@@ -1155,7 +1156,7 @@ margin-top: 0.5px;
 .probootstrap-footer .probootstrap-copyright {
   padding: 3em 0;
   margin-top: 20px;
-  background: #b3b3b3;
+  background: #ff9933;
 }
 
 @media screen and (max-width: 768px) {
@@ -3153,9 +3154,9 @@ margin-top: 0.5px;
 */
 .logogeorgi
 {
-	width: 100px;
-	height: 100px;
-  margin-left: 10px;
+	width: 50px;
+	height: 50px;
+  margin-left: 0px;
 }
 
 .logogeorgi img
@@ -3186,3 +3187,8 @@ align-content: center;
 .btn-video{
 
 }
+  .Prirodni_nauki{
+    color: bla;
+  }
+
+  
