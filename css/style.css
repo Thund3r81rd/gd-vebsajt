@@ -13,7 +13,7 @@ html {
 
 body {
   background: #f0ecec;
-  color: #f0ecec;
+  color: #000000;
     border: 2px;
   line-height: 28px;
   font-size: 15px;
@@ -21,7 +21,8 @@ body {
 }
 
 h1, h2, h3, h4, h5, h6 {
-  color: #000000;
+  color: black;
+
   line-height: 1.5;
   font-family: "Raleway", Arial, sans-serif;
   font-weight: 300;
@@ -3186,3 +3187,8 @@ align-content: center;
 .btn-video{
 
 }
+  .Prirodni_nauki{
+    color: bla;
+  }
+
+  
