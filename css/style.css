@@ -1134,6 +1134,7 @@ margin-top: 0.5px;
 
 .probootstrap-footer {
   padding: 7em 0;
+  padding-right: 0px;
   padding-bottom: 0;
   background: #ff9933;
   color: rgba(255, 255, 255, 0.9);
@@ -3113,10 +3114,12 @@ margin-top: 0.5px;
   margin-top: 100px;
 }
 .img-responsive
-{
-    max-width: 100%;
+{ 
+   max-width: 100%; 
     height:auto;
     display:block;
+    margin-top: -50px;
+
     
 }
 .pb0 {
@@ -3166,15 +3169,16 @@ margin-top: 0.5px;
 }
 .GD
 {
-	font-size: 22px;
-    margin-left: 65px;
+	font-size: 20px;
+    margin-left: 55px;
     margin-top:23px;
     position: absolute;
      font-family: sans-serif;
     color: #ff9933;
     font-weight: bolder;
     -webkit-text-stroke-width: 0.2px;
-    -webkit-text-stroke-color: white;
+    -webkit-text-stroke-color: orange;
+
 
 
 }
