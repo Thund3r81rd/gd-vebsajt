@@ -2599,7 +2599,7 @@ margin-top: 0.5px;
 
 /* Flexslider override style */
 .slider-height, .flexslider, .flexslider .slides > li {
-  height: 700px;
+  height: 100%;
 }
 
 @media screen and (max-width: 480px) {
